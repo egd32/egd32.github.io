@@ -1,0 +1,66 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: "Times New Roman", serif;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 140%;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+nav {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a[href^="http://"] {
+  display: block;
+}
+
+a[href^="http://"]:after { content: " (" attr(href) ") "; }
+
+a[href="#top"] {
+  display: none;
+}
+
+th{
+  text-align: left;
+}
+
+article {
+  position: relative;
+  padding: 0.05in;
+  margin: 0.05in;
+}
+
+article p.date {
+  position: absolute;
+  top: 0.075in;
+  right: 0;
+}
+
+article p.location {
+  position: absolute;
+  top: 2em;
+  right:0;
+}
+/*
+#honors-awards {
+  page-break-before: always;
+}*/

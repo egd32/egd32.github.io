@@ -1,0 +1,41 @@
+@media (max-width: 320px){
+
+  body{
+    font-family: serif;
+    font-size: 24px;
+  }
+
+  #container {
+    max-width: 320px;
+    min-width: 0px;
+    margin: 0 auto;
+  }
+
+  img {
+    display: none;
+  }
+
+  article p.date {
+    position: static;
+  }
+
+  article p.location {
+    position: static;
+  }
+
+  td {
+    display: block;
+  }
+
+  th {
+    display: block;
+  }
+
+  .mobile {
+    display: inline-block;
+  }
+
+  .name {
+    display: none;
+  }
+}

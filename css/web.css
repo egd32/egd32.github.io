@@ -65,7 +65,7 @@ article {
 }
 
 article p.date {
-  position: static;
+  position: absolute;
   top: 5px;
   right: 0;
 }

@@ -107,7 +107,7 @@ a:visited {
   color: #8132EA; /* light purple */
 }
 
-#social ul li{
+#social li{
   list-style: none;
   display: inline;
   margin-right: 55px;
